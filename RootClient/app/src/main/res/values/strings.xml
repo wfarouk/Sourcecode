@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RootDetector</string>
+    <string name="checkAll">Step 2- Run Root Detector</string>
+    <string name="Yes">Yes Rooted</string>
+    <string name="No">Not Rooted</string>
+    <string name="syncResult">Step 3 - Sync the scan result</string>
+    <string name="welcomeEn">   Thank you for your contribution in my Ph.D research application Please click on the Green sign if your device is rooted and on Red sign is not rooted </string>
+    <string name="welcomeAr">   شكراً جزيلا لمساهمتك الطيبه معى فى بحث الدكتوراة  من فضلك إذا كان هذا الجهاز قد تم له عمليه الروت أضغط العلامة الخضراء أو أضغط على العلامة الحمراء إذا لم تتم عمليه الروت   </string>
+
+</resources>

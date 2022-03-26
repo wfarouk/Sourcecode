@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="TextView10" type="id">TextView10</item>
+    <item name="TextView11" type="id">TextView11</item>
+    <item name="TextView12" type="id">TextView12</item>
+    <item name="resultTextView" type="id">resultTextView</item>
+    <item name="initialResultTextView" type="id">initialResultTextView</item>
+    <item name="welcometextViewAr" type="id">welcometextViewAr</item>
+    <item name="TextView101" type="id">TextView101</item>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:scrollbars = "vertical"
+android:scrollbarStyle="insideInset">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tikzon.RootDetector.MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRowinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/welcometextViewEn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            android:text =  "@string/welcomeEn"
+            >
+        </TextView>
+        <TextView
+            android:id="@id/welcometextViewAr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="8pt"
+            android:visibility="invisible"
+            android:text="@string/welcomeAr" >
+        </TextView>
+    </TableRow>
+
+
+
+    <TableRow
+        android:id="@+id/resultTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@id/resultTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10pt"
+            android:textAlignment="center"
+            android:text = "Loading result please wait..."> </TextView>
+        <Button
+            android:id="@+id/intialResultButton"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight= "1"
+            android:text=""
+
+            >
+        </Button>
+
+    </TableRow>
+    <TextView
+        android:id="@id/initialResultTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="The above is the initial result  if my initial result is not right please click  Green for Rooted and Red for UN-Rooted " >
+    </TextView>
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/yesRootedButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/checkmark"
+            android:text="Rooted"
+            android:textColor="@color/red"
+            />
+        <Button
+            android:id="@+id/notRootedButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight= "1"
+            android:background="@drawable/xmark"
+            android:text="Not Rooted"
+            android:textColor="@color/green">
+        </Button>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow109new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/TextView101"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="fill_vertical"
+            android:text = "Please note that we are not collecting any personal information from your device, all collected information is for research study purpose only"> </TextView>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow109"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/TextView10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="fill_vertical"
+            android:visibility="invisible"
+            android:text = "Please note that we are not collecting any personal information from your device, all collected information is for research study purpose only"> </TextView>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/TextView11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:layout_gravity="fill_vertical"> </TextView>
+        <TextView
+            android:id="@id/TextView12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:layout_gravity="fill_vertical"> </TextView>
+
+
+    </TableRow>
+
+
+</TableLayout>
+</ScrollView>
